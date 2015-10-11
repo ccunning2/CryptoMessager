@@ -7,8 +7,84 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#74a2e7"
-        android:layout_weight="1"></ScrollView>
+        android:background="#00aeff"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Encrypted Message from Alice 10/11 11:00 am:"
+                android:id="@+id/textView3"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ciphertextexample"
+                android:id="@+id/textView"
+                android:background="#776abf"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="18sp"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decrypt"
+                android:id="@+id/button"
+                android:layout_gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="You replied on 10/11 at 12:02 pm:"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="omg I don't have your key setup on here so I can't decrypt lol!"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="18sp"
+                android:background="#f4cd1d" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="You replied on 10/11 at 12:06 pm:"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Also send me some secondary contact info I need to send u my key"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="18sp"
+                android:background="#f4cd1d" />
+
+        </LinearLayout>
+    </ScrollView>
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"

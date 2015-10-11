@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">CryptoMessager</string>
-    <string name="ciphertextexample">1b07341a4e91ae5c1254772af93db87325329674465e6eee8b7ef9eabaf74d1e8b7ef9eabaf74d1e87b731be0e0f73b327b3c4130341e87</string>
+    <string name="ciphertextexample">
+        1b07341a4e91ae5c1254772af93db87325329674465e6eee8b7ef9eabaf74d1e8b7ef9eabaf74d1e87b731be0e0f73b327b3c4130341e871b07341a4e91ae5c1254772af93db87325329674465e6eee8b7ef9eabaf74d1e8b7ef9eabaf74d1e87b731be0e0f73b327b3c4130341e87
+    </string>
     <string name="input_message">Input plaintext message</string>
 </resources>
