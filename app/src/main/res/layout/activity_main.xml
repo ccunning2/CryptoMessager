@@ -4,11 +4,16 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#74a2e7"
+        android:layout_weight="1"></ScrollView>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="101dp"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="0dp"
         android:background="#1b0c0c">
         <EditText android:id="@+id/edit_message"
             android:layout_width="297dp"
