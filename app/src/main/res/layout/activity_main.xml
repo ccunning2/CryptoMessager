@@ -55,7 +55,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="omg I don't have your key setup on here so I can't decrypt lol!"
+                android:text="omg that's hilarious! <encrypted>"
                 android:id="@+id/textView4"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="15dp"
@@ -74,7 +74,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Also send me some secondary contact info I need to send u my key"
+                android:text="I love this app! <encrypted>"
                 android:id="@+id/textView4"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="15dp"
